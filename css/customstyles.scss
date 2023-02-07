@@ -1,0 +1,396 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+$headings: -apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+
+$font: -apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+
+$body-text-size: 16px;
+
+@import "docker/docker";
+
+.col-nav, .sidebar {
+  background-color: rgb(247, 247, 247);
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.content {
+  table {
+    th, td {
+      word-wrap: break-word;
+    }
+  }
+  
+  table.top-vertical-align-table td {
+    vertical-align: top;
+  }
+  
+  ul, ol {
+    padding-inline-start: 2em;
+    li {
+      font-size: $body-text-size;
+    }
+  }
+  b, strong {
+    font-weight: 600;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.25em;
+  }
+  h4 {
+    font-size: 1em;
+  }
+  h5 {
+    font-size: 0.875em;
+  }
+  h6 {
+    font-size: 0.85em;
+  }
+  pre {
+    font-size: 0.875em;
+  }
+  &, p {
+    line-height: 1.7;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    line-height: 1.25;
+  }
+  ul li:last-child {
+    margin-bottom: 0.625em;
+  }
+  table img {
+    display: inline;
+    padding-right: 1em;
+  }
+  blockquote {
+    background-color: rgba(255,229,100,0.3);
+    border-left-color: #ffe564;
+    margin-top: 10px;
+  }
+  code {
+    word-break: break-all;
+    white-space: break-spaces;
+  }
+  table code {
+    white-space: normal;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .feedback-links {
+    ul {
+      display: flex;
+      list-style: none;
+      padding-inline-start: 0;
+
+      li {
+        margin-right: 2em;
+      }
+    }
+  }
+}
+
+#gta {
+  padding: 0;
+}
+
+
+.button {
+  font-family: inherit;
+}
+
+div#autocompleteResults {
+  display: block;
+  padding-top: 0;
+  padding-bottom: 0;
+  border: none;
+  width: 500px !important;
+  background: white;
+}
+
+#autoContainer {
+
+  border: none;
+
+  .emptyResult {
+    padding: 7px 15px;
+  }
+
+  .autoCompleteResult {
+
+    .autocompleteProperties {
+
+      -webkit-padding-start: 0;
+      list-style-type: none;
+      margin: 0;
+      font-size: 0.875em;
+
+      .autocompleteTitle, .autocompleteDescription {
+        font-size: 1em;
+        font-weight: normal;
+      }
+
+      .autocompleteDescription {
+
+        &, * {
+          font-size: 1em;
+          color: #63676d;
+        }
+      }
+
+      .ais-Highlight {
+        box-shadow: inset 0 -2px 0 0 rgba(69,142,225,.8);
+        font-style: normal;
+        font-weight: normal;
+      }
+
+      strong {
+        font-weight: normal;
+      }
+    }
+
+    .algolia-logo {
+      font-size: 0.875em;
+    }
+  }
+}
+
+
+#search-box {
+
+  .ais-search-box--powered-by {
+    display: none;
+  }
+
+  ais-search-box--input {
+    position: relative;
+    vertical-align: top;
+  }
+}
+
+@media only screen
+    and (min-width : 376px)
+    and (max-width : 1150px) {
+
+  .nav-secondary  {
+      overflow: visible;
+  }
+}
+
+.tabs li.cta a {
+  background-color: #6BB545 !important;
+  border-bottom: 4px solid #6BB545;
+
+  &:hover {
+    // background-color: #3f6b29 !important;
+    // border-bottom-color: #6BB545;
+    opacity: .8;
+  }
+}
+
+#rating_info_8726954 {
+  display: none !important;
+}
+
+.nav-secondary {
+  background-color: #2B7FE1;
+}
+
+.rating-msg {
+  display: none;
+}
+
+.rating-icons {
+
+  * {
+    color: #4fa1d0 !important;
+    background: unset !important;
+    display: inline-block !important;
+    float: none !important;
+  }
+
+  &:hover {
+    opacity: .8;
+    .rating-nero-value {
+      font-weight: normal !important;
+    }
+  }
+
+  .rating-nero-value {
+    padding-left: 0 !important;
+    padding-right: 8px !important;
+    font-weight: normal !important;
+  }
+
+  .rating-nero-icon {
+
+    &::before {
+      font-family: 'FontAwesome';
+    }
+
+    &#PDRTJS_8726954_nero_1::before {
+      content: "\f164";
+    }
+
+    &#PDRTJS_8726954_nero_2::before {
+      content: "\f165";
+    }
+  }
+}
+
+
+/* style for author sidebar block */
+
+.title_author_block{
+  padding: 0 15px;
+}
+
+.author_info {
+  margin: 10px 0 20px 0;
+  border-bottom: 1px solid #2B7FE1;
+  padding: 0 0 20px 15px;
+
+  .author_image {
+    width: 40px;
+    float: left;
+  
+    img{
+      width: 100%;
+      border-radius: 50%;
+      border: 2px solid #2b7fe1;
+    }
+  }
+  
+  .author_name {
+    float: left;
+    line-height: 40px;
+    margin: 0 0 0 20px;
+  }
+}
+
+/* END style for author sidebar block */
+
+
+/* style for bannersales */
+
+.banner_sales {
+  width: 280px;
+  margin: 0px 0px 0px 0px;
+  position: fixed;
+  bottom: -6px;
+  right: -6px;
+
+  img{
+    width: 100%;
+  }
+}
+
+.toc-nav {
+  padding: 0 0 82px 0;
+}
+
+/* END style for bannersales */
+
+.nav-sidebar {
+  .fa-angle-down, .fa-angle-right {
+    float: right;
+    margin-top: 0.33em;
+  }
+
+  .fa-angle-down {
+    display: none;
+  }
+
+  .in > a {
+    &> .fa-angle-right {
+      display: none;
+    }
+    &> .fa-angle-down {
+      display: block;
+    }
+  } 
+}
+
+@media only screen
+  and (min-width : 376px)
+  and (max-width : 900px) {
+  .sidebar {
+    z-index: 9999;
+  }
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 667px)
+  and (orientation: portrait) {
+
+  .nav-sidebar a {
+    text-align: left;
+  }
+
+  .nav-sidebar > ul > li > a,
+  .nav-sidebar ul li a.active,
+  .nav-sidebar.nav > li > a:focus {
+    color: #3c4257;
+  }
+}
+
+.nav-sidebar > ul > li {
+  &> a {
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+  
+  a {
+    color: #3c4257;
+  }
+}
+
+body.night {
+  .nav-sidebar > ul > li a,
+  .nav-sidebar ul li a.active,
+  .nav-sidebar.nav > li > a:focus {
+    color: #d3d4d4;
+  }
+}
+
+.nav-sidebar ul li li a {
+  border-left-width: 0;
+}
+
+.nav-sidebar ul li {
+  &, li a {
+    font-size: 14px;
+    margin-left: 0;
+  }
+}
+
+.nav-sidebar ul li a.active,
+.nav-sidebar.nav > li > a:focus {
+  color: #3c4257;
+}
+
+.col-toc .sidebar {
+  background: transparent;
+}
+
+.nav-social .fa {
+  font-size: 14px;
+}

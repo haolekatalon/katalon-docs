@@ -1,0 +1,24 @@
+{% for item in include.tree %}
+    {% if item.tree %}
+        <li>
+            <a href="#">
+                {{item.title}}
+                <i class="fa fa-angle-right"></i>
+                <i class="fa fa-angle-down"></i>
+            </a>
+            <ul class="nav collapse">
+                {% include tree.html page=include.page tree=item.tree %}
+            </ul>
+        </li>
+    {% else %}
+        {% if include.page.url == item.url %}
+            <li class="active">
+                <a class="active" href="{{item.url | prepend:site.baseurl}}">{{item.title}}</a>
+            </li>
+        {% else %}
+            <li>
+                <a href="{{item.url | prepend:site.baseurl}}">{{item.title}}</a>
+            </li>
+        {% endif %}
+    {% endif %}
+{% endfor %}

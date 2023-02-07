@@ -1,0 +1,17 @@
+items:
+  - title: "FAQs"
+    tree:
+    - title: "Licensing"
+      url: /faqs/licensing.html
+    - title: "General"
+      url: /faqs/general.html
+    - title: "Features"
+      url: /faqs/features.html
+    - title: "Setup and Installation"
+      url: /faqs/setup-and-installation.html
+    - title: "Security and Privacy"
+      url: /faqs/security-and-privacy.html
+    - title: "Common Issues"
+      url: /faqs/common-issues.html
+    - title: "Test Service"
+      url: /faqs/test-service.html

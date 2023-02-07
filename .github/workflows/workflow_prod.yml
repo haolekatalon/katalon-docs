@@ -1,0 +1,53 @@
+name: KatalonDocsCI-Production
+on:
+  push:
+    branches:
+      - master
+jobs:
+  run:
+    name: Run
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+    - name: Branch name
+      run: echo running on branch ${GITHUB_REF##*/}
+
+    - name: List sites 
+      run: |
+        pwd
+        ls -la
+        cat javadoc/overview-summary.html
+
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-east-1
+
+    - name: Setup python
+      uses: actions/setup-python@v1
+      with:
+          python-version: 3.x
+          architecture: x64
+
+    - name: Install awscli 
+      run: |
+        pip3 install awscli --upgrade --user
+        aws --version
+
+    - name: Deploy javadoc to s3
+      run: |
+        pwd
+        ls -la javadoc/
+        aws s3 sync javadoc/ s3://${{ secrets.AWS_S3_BUCKET_JAVADOC_PROD }}
+
+    - name: Create Invalidate Cloudfront for javadoc
+      run: |
+        aws cloudfront create-invalidation --distribution-id  ${{ secrets.AWS_DISTRIBUTE_ID_JAVADOC_PRODUCTION }} --paths "/*"
+
+    - name: Slack Notification
+      uses: rtCamp/action-slack-notify@master
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}

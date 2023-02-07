@@ -1,0 +1,293 @@
+items:
+  - title: "By Katalon Team"
+    tree:
+      - title: "Quick Start"
+        url: /katalon-studio/videos/quick_start.html
+      - title: "Android setup on Windows"
+        url: /katalon-studio/videos/android_setup_windows.html
+      - title: "Creating test case using script mode"
+        url: /katalon-studio/videos/create_test_case_script_mode.html
+      - title: "Creating test case using Record and Playback"
+        url: /katalon-studio/videos/create_test_case_record_playback.html
+      - title: "iOS and Android setup on macOS"
+        url: /katalon-studio/videos/ios_android_setup_macos_2.html
+      - title: "Integrate Katalon Studio with Jira"
+        url: /katalon-studio/videos/katalon_studio_integration_jira_video.html
+      - title: "Execute automated Katalon Studio tests using Kobiton mobile devices"
+        url: /katalon-studio/videos/execute_automated_katalon_studio_tests_using_kobiton_mobile_devices.html
+  - title: "Raghav Pal"
+    tree:
+    - title: "Listeners in Katalon Studio"
+      url: /katalon-studio/videos/katalon-listeners.html
+    - title: "Troubleshooting and Debugging"
+      url: /katalon-studio/videos/katalon-troubleshooting-debugging.html 
+    - title: "How to use Headless Browsers"
+      url: /katalon-studio/videos/katalon-headless-browsers.html
+    - title: "API Testing 11 - Validate XML and JSON Response Values"
+      url: /katalon-studio/videos/xml-json-response-validation.html
+    - title: "API Testing 10 - Jenkins Integration"
+      url: /katalon-studio/videos/katalon-jenkins-integration.html
+    - title: "API Testing 9 - GIT Integration"
+      url: /katalon-studio/videos/git-integration.html
+    - title: "API Testing 8 - Command Line"
+      url: /katalon-studio/videos/api-testing-command-line.html
+    - title: "API Testing 7 - Result & Reporting"
+      url: /katalon-studio/videos/result-reporting.html
+    - title: "API Testing 6 - Katalon Analytics"
+      url: /katalon-studio/videos/katalon-analytics.html
+    - title: "API Testing 5 - HTTP methods GET, POST, PUT, DELETE"
+      url: /katalon-studio/videos/httpmethods.html
+    - title: "API Testing 4 - Validations"
+      url: /katalon-studio/videos/api-validations.html
+    - title: "API Testing 3 - REST API Testing"
+      url: /katalon-studio/videos/rest-api-testing.html
+    - title: "API Testing 2 - SOAP API Testing"
+      url: /katalon-studio/videos/soap-api-testing.html
+    - title: "API Testing 1 - Introduction and Getting Started"
+      url: /katalon-studio/videos/katalon-api-introduction.html
+    - title: "Katalon Studio API Data Driven Testing"
+      url: /katalon-studio/videos/katalon-api-data-driven-testing.html
+    - title: "Katalon Studio v5.5 (Beta): What’s New?"
+      url: /katalon-studio/videos/katalon_studio_5_5_beta.html
+    - title: "Katalon Studio 23: How to Create Environments | Execution Profiles"
+      url: /katalon-studio/videos/create_environment_profile.html
+    - title: "Katalon Studio 22: How to do Mobile (iOS) Testing via 10 Steps"
+      url: /katalon-studio/videos/ios_mobile_testing.html
+    - title: "Katalon Studio 21: How to do Mobile (Android) Testing on Mac OS via 7 steps"
+      url: /katalon-studio/videos/mobile_testing_mac_os.html
+    - title: "Katalon Studio 20: Introduction to Mobile Testing"
+      url: /katalon-studio/videos/intro_mobile_app_testing.html
+    - title: "Katalon Studio 19: How to use Katalon Analytics"
+      url: /katalon-studio/videos/katalon_analytics_test_execution_report.html
+    - title: "Katalon Studio 18: How to test API with Katalon Studio"
+      url: /katalon-studio/videos/katalon_studio_18_test_api_katalon_studio.html
+    - title: "How to Create Automation Tests Faster"
+      url: /katalon-studio/videos/create_test_with_katalon_recorder.html
+    - title: "What is Katalon Studio?"
+      url: /katalon-studio/videos/what_is_katalon_studio.html
+    - title: "How to Install Katalon Studio?"
+      url: /katalon-studio/videos/how_to_install_katalon_studio.html
+    - title: "Start and Explore GUI of Katalon Studio"
+      url: /katalon-studio/videos/explore_katalon_studio_gui.html
+    - title: "How to create First Automation Test"
+      url: /katalon-studio/videos/create_first_automation_test.html
+    - title: "How to Record and Replay"
+      url: /katalon-studio/videos/how_to_record_and_replay.html
+    - title: "How to create Test in MANUAL mode"
+      url: /katalon-studio/videos/create_test_manual_mode.html
+    - title: "How to create Test in SCRIPT mode"
+      url: /katalon-studio/videos/create_test_script_mode.html
+    - title: "How to create and run Test Suite"
+      url: /katalon-studio/videos/create_run_test_suite.html
+    - title: "Test Suite Collection – How to run Test Suites in parallel"
+      url: /katalon-studio/videos/test_suite_collection_run_test_suites_parallel.html
+    - title: "Test Execution REPORTS"
+      url: /katalon-studio/videos/test_execution_reports.html
+    - title: "How to Email results"
+      url: /katalon-studio/videos/how_to_email_results.html
+    - title: "How to run from Command Line"
+      url: /katalon-studio/videos/run_command_line.html
+    - title: "Integration with JENKINS (CI)"
+      url: /katalon-studio/videos/integration_jenkins_ci.html
+    - title: "Integration with GIT (Part-1)"
+      url: /katalon-studio/videos/integration_git_part_1.html
+    - title: "Integration with GIT (Part-2)"
+      url: /katalon-studio/videos/integration_git_part_2.html
+    - title: "Jenkins + Git Integration"
+      url: /katalon-studio/videos/jenkins_git_integration.html
+  - title: "Karthik K.K"
+    tree:
+    - title: "Automating Application-based MFA with Katalon Studio"
+      url: /katalon-studio/videos/automate_application_based_mfa.html
+    - title: "API Testing with Katalon Studio for DELETE request"
+      url: /katalon-studio/videos/api_testing_katalon_studio_delete_request.html
+    - title: "API Testing with Katalon Studio for PUT request and verify the response"
+      url: /katalon-studio/videos/api_testing_katalon_studio_put_request_verify_response.html
+    - title: "API Testing with Katalon Studio for POST request and verify the response"
+      url: /katalon-studio/videos/api_testing_katalon_studio_post_request_verify_response.html
+    - title: "API Testing with Katalon Studio 5.4"
+      url: /katalon-studio/videos/api_testing_katalon_studio_version_5_4.html
+    - title: "Setup/ Teardown Test Suite"
+      url: /katalon-studio/videos/setup_teardown_test_suite.html
+    - title: "Katalon Studio: Getting Started with Docker Container"
+      url: /katalon-studio/videos/katalon_run_docker_container.html
+    - title: "How to Record and Run Simple Tests"
+      url: /katalon-studio/videos/katalon_recorder_introduction.html
+    - title: "Working with Katalon Recorder – A complete replacement of Selenium IDE"
+      url: /katalon-studio/videos/working_with_katalon_recorder.html
+    - title: "Working with Parameterized Custom Test Object in Katalon Studio"
+      url: /katalon-studio/videos/working_parameterized_custom_test_object_katalon_studio.html
+    - title: "Introducing Kobiton with Katalon Studio"
+      url: /katalon-studio/videos/introducing_kobiton_katalon_studio.html
+    - title: "Working with Test Listeners (Test Hooks) in Katalon Studio v5.2"
+      url: /katalon-studio/videos/test_listeners_test_hooks.html
+    - title: "Working with Cucumber Runner for BDD in Katalon Studio 5.7"
+      url: /katalon-studio/videos/cucumber_runner_bdd.html
+    - title: "Automating Native Xamarin iOS application in MacOS with Katalon Studio"
+      url: /katalon-studio/videos/automating_native_xamarin_ios_application_macos_katalon_studio.html
+    - title: "Katalon Test Reporting and Katalon Analytics (Beta)"
+      url: /katalon-studio/videos/katalon_analytics_test_report.html
+    - title: "Introduction and getting started with Katalon studio for Android Automation"
+      url: /katalon-studio/videos/introduction_getting_started_katalon_studio_android_automation.html
+    - title: "Record & playback, Data Driven and Cross browser testing with Katalon Studio for Web UI"
+      url: /katalon-studio/videos/record_playback_data_driven_cross_browser_testing_katalon_studio_web_ui.html
+    - title: "Advanced interactions and Dynamic object property modification using Katalon Studio"
+      url: /katalon-studio/videos/advanced_interactions_dynamic_object_property_modification_using_katalon_studio.html
+    - title: "Custom Keywords and Method call statements in Katalon Studio"
+      url: /katalon-studio/videos/custom_keywords_and_method_call_statements.html
+  - title: "Mukesh Otwani"
+    tree:
+    - title: "How to Integrate Katalon Analytics with Katalon Studio"
+      url: /katalon-studio/videos/katalon_analytics_integration.html
+    - title: "How to Perform Post, Delete Operation in Katalon Studio"
+      url: /katalon-studio/videos/perform_post_delete_operation_katalon_studio.html
+    - title: "How to perform API Testing in Katalon Studio"
+      url: /katalon-studio/videos/perform_api_testing_katalon_studio.html
+    - title: "Setup, Install and Run Script in Katalon Studio"
+      url: /katalon-studio/videos/setup_katalon_studio.html
+    - title: "How to Export and Import Selenium Scripts"
+      url: /katalon-studio/videos/export_import_selenium_scripts.html
+    - title: "How to Write Selenium Scripts Manually"
+      url: /katalon-studio/videos/write_selenium_scripts_manually.html
+    - title: "How to Record and Play Selenium Scripts"
+      url: /katalon-studio/videos/write_selenium_scripts_by_katalon_recorder.html
+  - title: "Rahul Rathore"
+    tree:
+    - title: "Handling the CheckBox using Script Mode"
+      url: /katalon-studio/videos/handling_checkbox_using_script_mode_katalon_studio.html
+    - title: "Handling Multiple Browser Windows"
+      url: /katalon-studio/videos/handling_multiple_browser_windows.html
+    - title: "Handling JavaScript Prompt"
+      url: /katalon-studio/videos/handling_javascript_prompt.html
+    - title: "Configuring the Iframe in Test Object"
+      url: /katalon-studio/videos/configuring_iframe_test_object.html
+    - title: "Jenkins Master Slave Configuration"
+      url: /katalon-studio/videos/jenkins_master_slave_configuration.html
+    - title: "Running the Test Parallel on Jenkins Slave"
+      url: /katalon-studio/videos/running_test_parallel_jenkins_slave.html
+    - title: "API Testing with Katalon Studio for handling dynamic data in Request Body"
+      url: /katalon-studio/videos/api_testing_katalon_studio_dynamic_data_in_request_body.html
+    - title: "API Testing with Katalon Studio for handling JSON Web Tokens"
+      url: /katalon-studio/videos/api_testing_katalon_studio_handling_jwt.html
+    - title: "API Testing with Katalon Studio for GET request and verify the response"
+      url: /katalon-studio/videos/api_testing_katalon_studio_get_request_verify_response.html
+    - title: "API Testing with Katalon Studio for POST request and verify the response"
+      url: /katalon-studio/videos/api_testing_katalon_studio_post_request_verify_response_rahul.html
+    - title: "API Testing with Katalon Studio for PUT request and verify the response"
+      url: /katalon-studio/videos/api_testing_katalon_studio_put_request_verify_response_rahul.html
+    - title: "Handling Mouse Click with Katalon Studio"
+      url: /katalon-studio/videos/handling_mouse_click_with_katalon_studio.html
+    - title: "Handling Keyboard Actions with Katalon Studio"
+      url: /katalon-studio/videos/handling_keyboard_actions_with_katalon_studio.html  
+    - title: "Writing Custom Keywords for Log In and Log Out Functionality"
+      url: /katalon-studio/videos/writing_custom_keywords_for_log_in_log_out.html
+    - title: "Test Suite Creation and Execution in Katalon Studio"
+      url: /katalon-studio/videos/test_suite_creation_and_execution_in_katalon.html   
+    - title: "Parallel Test Execution in Katalon Studio"
+      url: /katalon-studio/videos/parallel_test_execution_in_katalon_studio.html
+    - title: "Handling Multiple Sets of Test Data in Katalon Studio"
+      url: /katalon-studio/videos/handling_multiple_set_test_data_katalon_studio.html
+    - title: "Setting Up and Creating Teardown from Script Mode"
+      url: /katalon-studio/videos/set_up_create_teardown_from_script_mode.html
+    - title: "Adding New Property for a Test Object in Katalon Studio"
+      url: /katalon-studio/videos/adding_new_property_for_test_object.html
+    - title: "Updating the Existing Property for a Test Object in Katalon Studio"
+      url: /katalon-studio/videos/updating_existing_property_for_test_object.html
+    - title: "Removing a Property from a Test Object in Katalon Studio"
+      url: /katalon-studio/videos/removing_property_from_test_object.html
+    - title: "Reading the Value from Grid in Katalon Studio"
+      url: /katalon-studio/videos/reading_value_from_grid_in_katalon.html
+    - title: "Developing Custom Keywords for Grid in Katalon Studio"
+      url: /katalon-studio/videos/developing_custom_keyword_for_grid__in_katalon.html
+    - title: "Handling Complex Grid in Katalon Studio"
+      url: /katalon-studio/videos/handling_complex_grid_katalon_studio.html
+    - title: "Running the Script in Headless Browser"
+      url: /katalon-studio/videos/running_script_in_headless_browser.html
+    - title: "Introduction to Katalon Analytics"
+      url: /katalon-studio/videos/introduction_katalon_analytics.html
+    - title: "Where to Access Katalon Analytics"
+      url: /katalon-studio/videos/where_to_access_katalon_analytics.html
+    - title: "Uploading Reports to Katalon Analytics"
+      url: /katalon-studio/videos/uploading_reports_to_katalon_analytics.html
+    - title: "Report Analysis in Katalon Studio"
+      url: /katalon-studio/videos/report_analysis_in_katalon_studio.html
+    - title: "Test Execution Using Katalon Plugin for Jenkins"
+      url: /katalon-studio/videos/test_execution_using_katalon_plugin.html
+    - title: "Creating Execution Profile in Katalon Studio"
+      url: /katalon-studio/videos/creating_execution_profile_katalon_studio.html
+    - title: "Test Case Execution Using Different Profiles in Katalon Studio"
+      url: /katalon-studio/videos/test_case_execution_using_different_profiles.html
+    - title: "Creating Parameterized Test Object in Katalon Studio"
+      url: /katalon-studio/videos/creating_parameterized_test_object_in_katalon.html
+    - title: "Using Parameterized Test Object in Test Script in Katalon Studio"
+      url: /katalon-studio/videos/using_parameterized_test_object_in_katalon.html
+    - title: "Test Execution on Remote Machines in Katalon Studio"
+      url: /katalon-studio/videos/test_execution_on_remote_machines.html
+    - title: "While loop in Katalon Studio"
+      url: /katalon-studio/videos/while_loop_in_katalon_studio.html
+  - title: "Tony Chau"
+    tree:
+    - title: "Katalon Studio Set Up Guidelines"
+      url: /katalon-studio/videos/katalon_studio_set_guidelines.html
+    - title: "Katalon Studio Hello World"
+      url: /katalon-studio/videos/katalon_studio_hello_world.html
+    - title: "How To Create A Basic Automation Test Case By Katalon Studio"
+      url: /katalon-studio/videos/create_basic_automation_test_case_katalon_studio.html
+    - title: "Debug Automation Scripts By Katalon Studio"
+      url: /katalon-studio/videos/debug_automation_scripts_katalon_studio.html
+    - title: "Run Automation Scripts By Command Line Using Katalon Studio"
+      url: /katalon-studio/videos/run_automation_scripts_command_line_using_katalon_studio.html
+    - title: "Get Datas From Excel File By Katalon Studio"
+      url: /katalon-studio/videos/get_datas_excel_file_katalon_studio.html
+    - title: "Improve a automation basic test case: Setup & Teardown"
+      url: /katalon-studio/videos/improve_automation_basic_test_case_setup_teardown.html
+    - title: "Study Katalon Studio Keyword Yourself"
+      url: /katalon-studio/videos/study_katalon_studio_keyword.html
+    - title: "Katalon Database Custom Keyword"
+      url: /katalon-studio/videos/katalon_database_custom_keyword.html
+    - title: "Katalon WebService Training"
+      url: /katalon-studio/videos/katalon_webservice_training.html
+    - title: "How To Apply Data Driven By Katalon Studio"
+      url: /katalon-studio/videos/apply_data_driven_katalon_studio.html
+    - title: "How To Convert Manual Test Case To Automation Test Case?"
+      url: /katalon-studio/videos/convert_manual_test_case_automation_test_case.html
+  - title: "Manish Verma"
+    tree:
+    - title: "Introduction and Download Katalon"
+      url: /katalon-studio/videos/introduction_download.html
+    - title: "Installing Katalon Studio on Windows"
+      url: /katalon-studio/videos/install_window.html
+    - title: "Installing Katalon Studio on macOS"
+      url: /katalon-studio/videos/macos.html
+    - title: "Introduction and First GET Request for REST API"
+      url: /katalon-studio/videos/request_restapi.html
+    - title: "First SOAP Request for SOAP Web Service"
+      url: /katalon-studio/videos/request_soap.html
+    - title: "Asana Account Sign up to Access APIs"
+      url: /katalon-studio/videos/asana_api.html
+    - title: "How to Configure Authorization"
+      url: /katalon-studio/videos/configure_authorization.html
+    - title: "Send POST Request for REST API"
+      url: /katalon-studio/videos/request_post.html
+    - title: "How to Send PUT Request"
+      url: /katalon-studio/videos/request_restapi_put.html
+    - title: "How to Send DELETE Request"
+      url: /katalon-studio/videos/delete_request.html
+    - title: "TTypes of Variables: Test Case and Global Variables"
+      url: /katalon-studio/videos/types_variables.html
+    - title: "Execution Profiles in Katalon Studio"
+      url: /katalon-studio/videos/execution_profile.html
+  - title: "Krishna Sakinala"
+    tree:
+    - title: "Import external JAR files into Katalon Studio"
+      url: /katalon-studio/videos/import_external_jar_files.html
+    - title: "Take WebElement screenshot in Katalon Studio"
+      url: /katalon-studio/videos/take_webelement_screenshot.html
+    - title: "Image comparison in Katalon Studio"
+      url: /katalon-studio/videos/image_comparison.html
+  - title: "KB Tutorials"
+    tree:
+    - title: "Introducing Katalon Studio"
+      url: /katalon-studio/videos/introducing_katalon_studio.html
+    - title: "Mobile Testing with Katalon Studio"
+      url: /katalon-studio/videos/mobile_testing_using_katalon_studio.html

@@ -1,0 +1,31 @@
+{% for item in include.tree %}
+    {% assign show=include.show %}
+    {% if show==false and include.page.root==true %}
+        {% assign show=true %}
+    {% endif %}
+    {% if show==false and include.page.root==item.id %}
+        {% assign show=true %}
+    {% endif %}
+    {% if show==true %}
+        {% if item.tree %}
+            <li>
+                {% if item.url == null %}
+                    {{item.title}}
+                {% else %}
+                    <a href="{{item.url | prepend:site.baseurl}}">
+                        {{item.title}}
+                    </a>
+                {% endif %}
+                <ul>
+                    {% include toc.html page=include.page tree=item.tree show=true %}
+                </ul>
+            </li>
+        {% else %}
+            <li>
+                <a href="{{item.url | prepend:site.baseurl}}">{{item.title}}</a>
+            </li>
+        {% endif %}
+    {% else %}
+        {% include toc.html page=include.page tree=item.tree show=false %}
+    {% endif %}
+{% endfor %}
